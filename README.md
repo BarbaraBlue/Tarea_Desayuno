@@ -1,30 +1,29 @@
 #Establecer carpeta "Tarea_Desayuno" como directorio de trabajo.
 setwd("~/Tarea_Desayuno")
 
-#Tarea_Desayuno: Crear un desayuno con la ayuda de distintas acciones en R:
-Cortar - Moler -  CalentarSarten - Preparar - Calentar - Rellenar - Servir 
+#Tarea_Desayuno: Realizar un desayuno la ayuda de distintas acciones en R.
 
 #Paso 1: Cortar elementos
 
-Cortar("pan") 
-Cortar("palta") 
-Cortar("naranjas")
+1. Cortar("pan")
+2. Cortar("palta")
+3. Cortar("naranjas")
 
 #Paso 2: Fase 1 preparacion
 
-CalentarSarten()
-Preparar("harina","huevos")
-Calentar(Cortar("pan"))
-Preparar(Preparar("harina","huevos"),CalentarSarten())
-Moler(Cortar("palta"))
-Calentar("cafe")
+4. CalentarSarten()
+5. Preparar("harina","huevos")
+6. Calentar(Cortar("pan"))
+7. Preparar(Preparar("harina","huevos"),CalentarSarten())
+8. Moler(Cortar("palta"))
+9. Calentar("cafe")
 
 #Paso 3: Fase 2 preparacion
 
-Preparar(Calentar(Cortar("pan")),Moler(Cortar("palta")))
-Rellenar(Preparar(Preparar("harina","huevos"),CalentarSarten()))
-Preparar(Cortar("naranjas"))
+10. Preparar(Calentar(Cortar("pan")),Moler(Cortar("palta")))
+11. Rellenar(Preparar(Preparar("harina","huevos"),CalentarSarten()))
+12. Preparar(Cortar("naranjas"))
 
 #Paso 4: Servir el desayuno calentito
 
-Servir(Preparar(Calentar(Cortar("pan")),Moler(Cortar("palta"))), Rellenar(Preparar(Preparar("harina","huevos"),CalentarSarten())), Preparar(Cortar("naranjas")), Calentar("cafe"))
+13. Servir(Preparar(Calentar(Cortar("pan")),Moler(Cortar("palta"))), Rellenar(Preparar(Preparar("harina","huevos"),CalentarSarten())), Preparar(Cortar("naranjas")), Calentar("cafe"))
