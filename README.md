@@ -1,7 +1,7 @@
 #Establecer carpeta "Tarea_Desayuno" como directorio de trabajo.
 setwd("~/Tarea_Desayuno")
 
-#Tarea_Desayuno: Realizar un desayuno la ayuda de distintas acciones en R.
+#Tarea_Desayuno: Convertir materias primas en un rico desayuno con la ayuda de distintas acciones en R.
 
 #Paso 1: Cortar elementos
 
